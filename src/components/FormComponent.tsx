@@ -11,3 +11,44 @@ Puedes estructurarlo de la siguiente manera:
 campos no se completan correctamente.
 
 */
+
+const FormComponent = () => {
+
+
+
+    return(
+        <>
+            <form
+                className="space-y-5 bg-white p-10 rounded-lg"
+            >
+                <div className="px-5 py-10 bg-white mt-5 flex justify-between">
+                    <div className="space-y-2 relative">
+                        <p className="font-black text-4xl text-red-800">
+                            <span>Gastos</span>
+                        </p>
+                        <div className="grid grid-cols-1 gap-3">
+                            <label htmlFor="category" className="font-bold">Filtrar: </label>
+                            <select
+                                className="border border-slate-300 rounded-lg w-full bg-white"
+                                id="category"
+                                
+                            >
+
+                                
+                            </select>
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+            </form>
+
+        </>
+    );
+}
+
+export default FormComponent;
