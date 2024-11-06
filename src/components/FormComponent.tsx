@@ -28,11 +28,7 @@ const FormComponent = () => {
                         </p>
                         <div className="grid grid-cols-1 gap-3">
                             <label htmlFor="category" className="font-bold">Filtrar: </label>
-                            <select
-                                className="border border-slate-300 rounded-lg w-full bg-white"
-                                id="category"
-                                
-                            >
+                            
 
                                 
                             </select>
